@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C57C3C420B6FDFC001426CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C57C3C320B6FDFC001426CD /* AppDelegate.m */; };
+		2C57C3C720B6FDFC001426CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C57C3C620B6FDFC001426CD /* ViewController.m */; };
+		2C57C3CA20B6FDFC001426CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C57C3C820B6FDFC001426CD /* Main.storyboard */; };
+		2C57C3CC20B6FDFC001426CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C57C3CB20B6FDFC001426CD /* Assets.xcassets */; };
+		2C57C3CF20B6FDFC001426CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C57C3CD20B6FDFC001426CD /* LaunchScreen.storyboard */; };
+		2C57C3D220B6FDFC001426CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C57C3D120B6FDFC001426CD /* main.m */; };
+		2C57C3DC20B6FDFC001426CD /* SunnyBlogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C57C3DB20B6FDFC001426CD /* SunnyBlogTests.m */; };
+		2C57C3E720B6FDFC001426CD /* SunnyBlogUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C57C3E620B6FDFC001426CD /* SunnyBlogUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C57C3D820B6FDFC001426CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C57C3B720B6FDFB001426CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C57C3BE20B6FDFC001426CD;
+			remoteInfo = SunnyBlog;
+		};
+		2C57C3E320B6FDFC001426CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C57C3B720B6FDFB001426CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C57C3BE20B6FDFC001426CD;
+			remoteInfo = SunnyBlog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C57C3BF20B6FDFC001426CD /* SunnyBlog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SunnyBlog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C57C3C220B6FDFC001426CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2C57C3C320B6FDFC001426CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2C57C3C520B6FDFC001426CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2C57C3C620B6FDFC001426CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2C57C3C920B6FDFC001426CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C57C3CB20B6FDFC001426CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C57C3CE20B6FDFC001426CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C57C3D020B6FDFC001426CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C57C3D120B6FDFC001426CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C57C3D720B6FDFC001426CD /* SunnyBlogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunnyBlogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C57C3DB20B6FDFC001426CD /* SunnyBlogTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SunnyBlogTests.m; sourceTree = "<group>"; };
+		2C57C3DD20B6FDFC001426CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C57C3E220B6FDFC001426CD /* SunnyBlogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunnyBlogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C57C3E620B6FDFC001426CD /* SunnyBlogUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SunnyBlogUITests.m; sourceTree = "<group>"; };
+		2C57C3E820B6FDFC001426CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C57C3BC20B6FDFC001426CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C57C3D420B6FDFC001426CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C57C3DF20B6FDFC001426CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C57C3B620B6FDFB001426CD = {
+			isa = PBXGroup;
+			children = (
+				2C57C3C120B6FDFC001426CD /* SunnyBlog */,
+				2C57C3DA20B6FDFC001426CD /* SunnyBlogTests */,
+				2C57C3E520B6FDFC001426CD /* SunnyBlogUITests */,
+				2C57C3C020B6FDFC001426CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C57C3C020B6FDFC001426CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C57C3BF20B6FDFC001426CD /* SunnyBlog.app */,
+				2C57C3D720B6FDFC001426CD /* SunnyBlogTests.xctest */,
+				2C57C3E220B6FDFC001426CD /* SunnyBlogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C57C3C120B6FDFC001426CD /* SunnyBlog */ = {
+			isa = PBXGroup;
+			children = (
+				2C57C3C220B6FDFC001426CD /* AppDelegate.h */,
+				2C57C3C320B6FDFC001426CD /* AppDelegate.m */,
+				2C57C3C520B6FDFC001426CD /* ViewController.h */,
+				2C57C3C620B6FDFC001426CD /* ViewController.m */,
+				2C57C3C820B6FDFC001426CD /* Main.storyboard */,
+				2C57C3CB20B6FDFC001426CD /* Assets.xcassets */,
+				2C57C3CD20B6FDFC001426CD /* LaunchScreen.storyboard */,
+				2C57C3D020B6FDFC001426CD /* Info.plist */,
+				2C57C3D120B6FDFC001426CD /* main.m */,
+			);
+			path = SunnyBlog;
+			sourceTree = "<group>";
+		};
+		2C57C3DA20B6FDFC001426CD /* SunnyBlogTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C57C3DB20B6FDFC001426CD /* SunnyBlogTests.m */,
+				2C57C3DD20B6FDFC001426CD /* Info.plist */,
+			);
+			path = SunnyBlogTests;
+			sourceTree = "<group>";
+		};
+		2C57C3E520B6FDFC001426CD /* SunnyBlogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C57C3E620B6FDFC001426CD /* SunnyBlogUITests.m */,
+				2C57C3E820B6FDFC001426CD /* Info.plist */,
+			);
+			path = SunnyBlogUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C57C3BE20B6FDFC001426CD /* SunnyBlog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C57C3EB20B6FDFC001426CD /* Build configuration list for PBXNativeTarget "SunnyBlog" */;
+			buildPhases = (
+				2C57C3BB20B6FDFC001426CD /* Sources */,
+				2C57C3BC20B6FDFC001426CD /* Frameworks */,
+				2C57C3BD20B6FDFC001426CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SunnyBlog;
+			productName = SunnyBlog;
+			productReference = 2C57C3BF20B6FDFC001426CD /* SunnyBlog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C57C3D620B6FDFC001426CD /* SunnyBlogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C57C3EE20B6FDFC001426CD /* Build configuration list for PBXNativeTarget "SunnyBlogTests" */;
+			buildPhases = (
+				2C57C3D320B6FDFC001426CD /* Sources */,
+				2C57C3D420B6FDFC001426CD /* Frameworks */,
+				2C57C3D520B6FDFC001426CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C57C3D920B6FDFC001426CD /* PBXTargetDependency */,
+			);
+			name = SunnyBlogTests;
+			productName = SunnyBlogTests;
+			productReference = 2C57C3D720B6FDFC001426CD /* SunnyBlogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C57C3E120B6FDFC001426CD /* SunnyBlogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C57C3F120B6FDFC001426CD /* Build configuration list for PBXNativeTarget "SunnyBlogUITests" */;
+			buildPhases = (
+				2C57C3DE20B6FDFC001426CD /* Sources */,
+				2C57C3DF20B6FDFC001426CD /* Frameworks */,
+				2C57C3E020B6FDFC001426CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C57C3E420B6FDFC001426CD /* PBXTargetDependency */,
+			);
+			name = SunnyBlogUITests;
+			productName = SunnyBlogUITests;
+			productReference = 2C57C3E220B6FDFC001426CD /* SunnyBlogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C57C3B720B6FDFB001426CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = YY;
+				TargetAttributes = {
+					2C57C3BE20B6FDFC001426CD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					2C57C3D620B6FDFC001426CD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2C57C3BE20B6FDFC001426CD;
+					};
+					2C57C3E120B6FDFC001426CD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2C57C3BE20B6FDFC001426CD;
+					};
+				};
+			};
+			buildConfigurationList = 2C57C3BA20B6FDFB001426CD /* Build configuration list for PBXProject "SunnyBlog" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C57C3B620B6FDFB001426CD;
+			productRefGroup = 2C57C3C020B6FDFC001426CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C57C3BE20B6FDFC001426CD /* SunnyBlog */,
+				2C57C3D620B6FDFC001426CD /* SunnyBlogTests */,
+				2C57C3E120B6FDFC001426CD /* SunnyBlogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C57C3BD20B6FDFC001426CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C57C3CF20B6FDFC001426CD /* LaunchScreen.storyboard in Resources */,
+				2C57C3CC20B6FDFC001426CD /* Assets.xcassets in Resources */,
+				2C57C3CA20B6FDFC001426CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C57C3D520B6FDFC001426CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C57C3E020B6FDFC001426CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C57C3BB20B6FDFC001426CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C57C3C720B6FDFC001426CD /* ViewController.m in Sources */,
+				2C57C3D220B6FDFC001426CD /* main.m in Sources */,
+				2C57C3C420B6FDFC001426CD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C57C3D320B6FDFC001426CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C57C3DC20B6FDFC001426CD /* SunnyBlogTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C57C3DE20B6FDFC001426CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C57C3E720B6FDFC001426CD /* SunnyBlogUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C57C3D920B6FDFC001426CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C57C3BE20B6FDFC001426CD /* SunnyBlog */;
+			targetProxy = 2C57C3D820B6FDFC001426CD /* PBXContainerItemProxy */;
+		};
+		2C57C3E420B6FDFC001426CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C57C3BE20B6FDFC001426CD /* SunnyBlog */;
+			targetProxy = 2C57C3E320B6FDFC001426CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C57C3C820B6FDFC001426CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C57C3C920B6FDFC001426CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C57C3CD20B6FDFC001426CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C57C3CE20B6FDFC001426CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C57C3E920B6FDFC001426CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2C57C3EA20B6FDFC001426CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C57C3EC20B6FDFC001426CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SunnyBlog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sogou..SunnyBlog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C57C3ED20B6FDFC001426CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SunnyBlog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sogou..SunnyBlog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2C57C3EF20B6FDFC001426CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SunnyBlogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sogou..SunnyBlogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SunnyBlog.app/SunnyBlog";
+			};
+			name = Debug;
+		};
+		2C57C3F020B6FDFC001426CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SunnyBlogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sogou..SunnyBlogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SunnyBlog.app/SunnyBlog";
+			};
+			name = Release;
+		};
+		2C57C3F220B6FDFC001426CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SunnyBlogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sogou..SunnyBlogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SunnyBlog;
+			};
+			name = Debug;
+		};
+		2C57C3F320B6FDFC001426CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SunnyBlogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sogou..SunnyBlogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SunnyBlog;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C57C3BA20B6FDFB001426CD /* Build configuration list for PBXProject "SunnyBlog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C57C3E920B6FDFC001426CD /* Debug */,
+				2C57C3EA20B6FDFC001426CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C57C3EB20B6FDFC001426CD /* Build configuration list for PBXNativeTarget "SunnyBlog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C57C3EC20B6FDFC001426CD /* Debug */,
+				2C57C3ED20B6FDFC001426CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C57C3EE20B6FDFC001426CD /* Build configuration list for PBXNativeTarget "SunnyBlogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C57C3EF20B6FDFC001426CD /* Debug */,
+				2C57C3F020B6FDFC001426CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C57C3F120B6FDFC001426CD /* Build configuration list for PBXNativeTarget "SunnyBlogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C57C3F220B6FDFC001426CD /* Debug */,
+				2C57C3F320B6FDFC001426CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C57C3B720B6FDFB001426CD /* Project object */;
+}

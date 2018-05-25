@@ -9,5 +9,7 @@
 #import "Teacher.h"
 
 @implementation Teacher
-
+- (void)dealloc {
+    NSLog(@"dealloc:%@",self);
+}
 @end

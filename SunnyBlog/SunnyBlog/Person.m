@@ -9,5 +9,17 @@
 #import "Person.h"
 
 @implementation Person
+- (void)willChangeValueForKey:(NSString *)key {
+    NSLog(@"%@", NSStringFromSelector(_cmd));
+    [super willChangeValueForKey:key];
+}
 
+- (void)didChangeValueForKey:(NSString *)key {
+    NSLog(@"%@", NSStringFromSelector(_cmd));
+    [super didChangeValueForKey:key];
+}
+
+- (void)dealloc {
+    NSLog(@"dealloc:%@",self);
+}
 @end

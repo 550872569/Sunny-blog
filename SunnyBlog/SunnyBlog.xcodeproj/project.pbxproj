@@ -17,6 +17,7 @@
 		2C57C3E720B6FDFC001426CD /* SunnyBlogUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C57C3E620B6FDFC001426CD /* SunnyBlogUITests.m */; };
 		8D6D440D20B7B39E00D99037 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6D440C20B7B39E00D99037 /* Person.m */; };
 		8D6D441020B7B3B500D99037 /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6D440F20B7B3B500D99037 /* Teacher.m */; };
+		8D6D441320B7D85700D99037 /* NSObject+DLIntrospection.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6D441220B7D85700D99037 /* NSObject+DLIntrospection.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		8D6D440C20B7B39E00D99037 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		8D6D440E20B7B3B500D99037 /* Teacher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
 		8D6D440F20B7B3B500D99037 /* Teacher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
+		8D6D441120B7D85700D99037 /* NSObject+DLIntrospection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DLIntrospection.h"; sourceTree = "<group>"; };
+		8D6D441220B7D85700D99037 /* NSObject+DLIntrospection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DLIntrospection.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				8D6D440C20B7B39E00D99037 /* Person.m */,
 				8D6D440E20B7B3B500D99037 /* Teacher.h */,
 				8D6D440F20B7B3B500D99037 /* Teacher.m */,
+				8D6D441120B7D85700D99037 /* NSObject+DLIntrospection.h */,
+				8D6D441220B7D85700D99037 /* NSObject+DLIntrospection.m */,
 				2C57C3C820B6FDFC001426CD /* Main.storyboard */,
 				2C57C3CB20B6FDFC001426CD /* Assets.xcassets */,
 				2C57C3CD20B6FDFC001426CD /* LaunchScreen.storyboard */,
@@ -278,6 +283,7 @@
 				2C57C3C720B6FDFC001426CD /* ViewController.m in Sources */,
 				2C57C3D220B6FDFC001426CD /* main.m in Sources */,
 				8D6D440D20B7B39E00D99037 /* Person.m in Sources */,
+				8D6D441320B7D85700D99037 /* NSObject+DLIntrospection.m in Sources */,
 				8D6D441020B7B3B500D99037 /* Teacher.m in Sources */,
 				2C57C3C420B6FDFC001426CD /* AppDelegate.m in Sources */,
 			);

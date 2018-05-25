@@ -15,6 +15,8 @@
 		2C57C3D220B6FDFC001426CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C57C3D120B6FDFC001426CD /* main.m */; };
 		2C57C3DC20B6FDFC001426CD /* SunnyBlogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C57C3DB20B6FDFC001426CD /* SunnyBlogTests.m */; };
 		2C57C3E720B6FDFC001426CD /* SunnyBlogUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C57C3E620B6FDFC001426CD /* SunnyBlogUITests.m */; };
+		8D6D440D20B7B39E00D99037 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6D440C20B7B39E00D99037 /* Person.m */; };
+		8D6D441020B7B3B500D99037 /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6D440F20B7B3B500D99037 /* Teacher.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		2C57C3E220B6FDFC001426CD /* SunnyBlogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunnyBlogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C57C3E620B6FDFC001426CD /* SunnyBlogUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SunnyBlogUITests.m; sourceTree = "<group>"; };
 		2C57C3E820B6FDFC001426CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D6D440B20B7B39E00D99037 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		8D6D440C20B7B39E00D99037 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		8D6D440E20B7B3B500D99037 /* Teacher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		8D6D440F20B7B3B500D99037 /* Teacher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				2C57C3C320B6FDFC001426CD /* AppDelegate.m */,
 				2C57C3C520B6FDFC001426CD /* ViewController.h */,
 				2C57C3C620B6FDFC001426CD /* ViewController.m */,
+				8D6D440B20B7B39E00D99037 /* Person.h */,
+				8D6D440C20B7B39E00D99037 /* Person.m */,
+				8D6D440E20B7B3B500D99037 /* Teacher.h */,
+				8D6D440F20B7B3B500D99037 /* Teacher.m */,
 				2C57C3C820B6FDFC001426CD /* Main.storyboard */,
 				2C57C3CB20B6FDFC001426CD /* Assets.xcassets */,
 				2C57C3CD20B6FDFC001426CD /* LaunchScreen.storyboard */,
@@ -267,6 +277,8 @@
 			files = (
 				2C57C3C720B6FDFC001426CD /* ViewController.m in Sources */,
 				2C57C3D220B6FDFC001426CD /* main.m in Sources */,
+				8D6D440D20B7B39E00D99037 /* Person.m in Sources */,
+				8D6D441020B7B3B500D99037 /* Teacher.m in Sources */,
 				2C57C3C420B6FDFC001426CD /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -30,6 +30,17 @@
     BOOL res8 = [(id)[Teacher new] isKindOfClass:[Person class]];
     
     NSLog(@"\n res1:%d \n res2:%d \n res3:%d \n res4:%d \n res5:%d \n res6:%d \n res7:%d \n res8:%d \n",res1,res2,res3,res4,res5,res6,res7,res8);
+    /**
+     res1:1
+     res2:0
+     res3:0
+     res4:0
+     res5:1
+     res6:1
+     res7:0
+     res8:1
+
+     */
 }
 
 @end
